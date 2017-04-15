@@ -19,12 +19,8 @@ Human:
 
 ```
 qué cosa no sabes?
-qué cosa no sabes?
-qué cosa no sabés?
 qué cosa no sabés?
 ¿qué cosa no sabes?
-¿qué cosa no sabes?
-¿qué cosa no sabés?
 ¿qué cosa no sabés?
 ```
 
@@ -46,15 +42,15 @@ First draft for two steps seq2seq
 
 ```
 H:_GREETING Hello
-R:_SAD Hi. BECOUSE:_GREETING
-R:_NORMAL Hi, how are you? BECOUSE:_GREETING
-R:_HAPPY Hi there! :D BECOUSE:_GREETING
+R:_SAD Hi. _BECAUSE:_GREETING
+R:_NORMAL Hi, how are you? _BECAUSE:_GREETING
+R:_HAPPY Hi there! :D BECAUSE:_GREETING
 
 H:_BORED I'm bored
-R:What do you like to do in your free time? BECOUSE:_BORED
+R:What do you like to do in your free time? _BECAUSE:_BORED
 
 H:_PROGRAM_TIME What time is it?
-R:Is one o'clock BECOUSE:_PROGRAM_TIME 01:00
+R:It is one o'clock _BECAUSE:_PROGRAM_TIME 01:00
 ```
 
 - Get input question.
